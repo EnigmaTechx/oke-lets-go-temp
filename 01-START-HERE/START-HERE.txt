@@ -1,0 +1,42 @@
+OK LET'S GO — COMPLETE DEVELOPER HANDOFF
+==========================================
+Handoff prepared: September 11, 2026
+
+THIS IS THE CURRENT WORKING PROTOTYPE.
+The owner tested this version in Expo Go before handoff. The app opened normally, navigation worked, and the tested buttons worked.
+
+START HERE
+----------
+1. Extract this ZIP to a normal development folder.
+2. Go to: 04-WORKING-PROJECT/ok-lets-go-clean
+3. Make your own untouched backup or Git baseline commit before editing.
+4. Copy `.env.example` to `.env`.
+5. Ask the owner for the Google Maps API key through a secure channel and place it in `.env`.
+6. Install dependencies with:
+      npm ci
+7. Start Expo with:
+      npx expo start
+   Windows PowerShell note: if script execution blocks `npx`, use:
+      npx.cmd expo start
+8. Test both Customer and Driver flows before refactoring.
+9. Continue development from this working version.
+
+DO NOT REBUILD APPROVED SCREENS FROM SCRATCH WITHOUT OWNER APPROVAL.
+The current app is the design/interaction blueprint.
+
+CURRENT CORE STACK
+------------------
+Expo: ~57.0.21
+React: 19.2.3
+React Native: 0.86.3
+react-native-maps: 1.27.2
+expo-location: ~57.0.16
+react-native-webview: 13.16.1
+
+WHAT WAS REMOVED FROM THE DEVELOPER COPY
+----------------------------------------
+- node_modules (reinstall with `npm ci`)
+- .expo cache (Expo recreates it)
+- the real .env file / Google Maps API key (provide securely)
+
+The owner's master project is separate and was not modified.

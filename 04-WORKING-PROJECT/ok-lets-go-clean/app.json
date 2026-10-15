@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "ok-lets-go-clean",
+    "slug": "ok-lets-go-clean",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.okletsgo.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d4c1f2f5-1952-42f7-86c2-0821065ce6a6"
+      }
+    },
+    "owner": "ok-lets-go",
+    "plugins": [
+      "expo-audio"
+    ]
+  }
+}

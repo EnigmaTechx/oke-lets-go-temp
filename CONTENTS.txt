@@ -1,0 +1,21 @@
+OK LET'S GO — HANDOFF CONTENTS
+
+01-START-HERE/
+  START-HERE.txt
+  MESSAGE-TO-DEVELOPER.md
+  DEVELOPER-FIRST-DAY-CHECKLIST.txt
+
+02-DOCUMENTATION/
+  CURRENT-STATUS.md
+  TECHNICAL-HANDOFF.md
+  BUSINESS-RULES.md
+  DESIGN-RULES.md
+
+03-UI-REFERENCES/
+  Approved visual reference images
+
+04-WORKING-PROJECT/
+  ok-lets-go-clean/   <-- current working developer copy
+
+The developer copy excludes node_modules, .expo cache, and the real .env secret.
+The owner retains the original master project separately.

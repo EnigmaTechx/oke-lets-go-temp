@@ -1,0 +1,13 @@
+DEVELOPER FIRST-DAY CHECKLIST
+=============================
+[ ] Extract the handoff package.
+[ ] Open 04-WORKING-PROJECT/ok-lets-go-clean.
+[ ] Create an untouched backup / baseline Git commit.
+[ ] Copy .env.example to .env.
+[ ] Obtain the Google Maps API key securely from the owner.
+[ ] Run npm ci.
+[ ] Run npx expo start (or npx.cmd expo start on affected Windows PowerShell setups).
+[ ] Test Customer flow.
+[ ] Test Driver flow.
+[ ] Read BUSINESS-RULES.md and DESIGN-RULES.md before changing product behavior or visuals.
+[ ] Continue from the inherited working version.
